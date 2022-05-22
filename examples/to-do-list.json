@@ -1,0 +1,27 @@
+{
+  "title": "To Do List",
+  "libraries": [
+    {
+      "name": "ToDo",
+      "structs": [
+        {
+          "name": "Item",
+          "fields": [
+            {
+              "name": "Done",
+              "type": "bit"
+            },
+            {
+              "name": "Hidden",
+              "type": "bit"
+            },
+            {
+              "name": "Title",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
